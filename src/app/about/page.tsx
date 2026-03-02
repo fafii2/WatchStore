@@ -50,10 +50,10 @@ export default function AboutPage() {
                                 <h2 className="text-4xl md:text-5xl font-serif text-white">The Origin</h2>
                                 <div className="space-y-6 text-white/60 leading-relaxed font-light">
                                     <p>
-                                        Founded on an unyielding passion for horology, JD's Time & Ride began as a private collection for discerning enthusiasts. We recognized that traditional social media platforms failed to convey the true gravity and craftsmanship of fine timepieces.
+                                        Founded on an unyielding passion for horology, JD&apos;s Time &amp; Ride began as a private collection for discerning enthusiasts. We recognized that traditional social media platforms failed to convey the true gravity and craftsmanship of fine timepieces.
                                     </p>
                                     <p>
-                                        This digital showroom was built to bridge that gap—providing a platform worthy of the art we represent. We don't just list watches; we curate investments and preserve horological history.
+                                        This digital showroom was built to bridge that gap—providing a platform worthy of the art we represent. We don&apos;t just list watches; we curate investments and preserve horological history.
                                     </p>
                                 </div>
                             </motion.div>

@@ -52,7 +52,7 @@ export function TrustBanner() {
                     <p className="text-primary tracking-[0.3em] uppercase text-xs font-semibold mb-6">Our Commitment</p>
                     <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">The JD Standard</h2>
                     <p className="text-white/60 font-light leading-relaxed">
-                        We don't just sell watches; we curate investments and preserve horological history. Our commitment to excellence ensures complete confidence in every acquisition.
+                        We don&apos;t just sell watches; we curate investments and preserve horological history. Our commitment to excellence ensures complete confidence in every acquisition.
                     </p>
                 </motion.div>
 

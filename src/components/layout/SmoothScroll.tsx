@@ -11,7 +11,7 @@ export function SmoothScroll({ children }: { children: React.ReactNode }) {
                 duration: 1.5,
             }}
         >
-            {/* @ts-ignore - Bypass ReactNode version mismatch */}
+            {/* @ts-expect-error - Bypass ReactNode version mismatch */}
             {children}
         </ReactLenis>
     );

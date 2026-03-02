@@ -40,7 +40,7 @@ const watchData = {
 
 // Simulate dynamic routing behavior
 export default async function WatchDetailPage({ params }: { params: Promise<{ slug: string }> }) {
-    const { slug } = await params;
+    await params; // Await params to fulfill the promise but we don't need the slug yet with dummy data
 
     // In a real app we would fetch the specific watch by slug from Sanity here.
     // We're using the dummy data for now

@@ -50,7 +50,7 @@ export function InquiryDialog({ watchName, reference, triggerText = "Inquire Now
                 const result = await response.json();
                 setSubmitMessage({ text: result.error || "Something went wrong.", type: "error" });
             }
-        } catch (error) {
+        } catch {
             setSubmitMessage({ text: "An unexpected error occurred.", type: "error" });
         } finally {
             setIsSubmitting(false);

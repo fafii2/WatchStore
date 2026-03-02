@@ -36,7 +36,7 @@ export default function ContactPage() {
                 const result = await response.json();
                 setSubmitMessage({ text: result.error || "Something went wrong. Please try again.", type: "error" });
             }
-        } catch (error) {
+        } catch {
             setSubmitMessage({ text: "An unexpected error occurred. Please try again later.", type: "error" });
         } finally {
             setIsSubmitting(false);
