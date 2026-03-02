@@ -1,0 +1,234 @@
+{
+    "product": {
+        "name": "JD’s Time & Ride Website",
+        "type": "Luxury Watch Showcase Website",
+        "version": "1.0",
+        "owner": "Solo Developer",
+        "description": "A premium online showroom designed to showcase curated watches and convert visitors into inquiries or pre-orders."
+    },
+    "vision": {
+        "problem_statement": "Social media alone lacks structured presentation and professionalism needed to justify luxury watch pricing.",
+        "solution": "Provide a high-end digital showroom experience with detailed product information and premium visual design."
+    },
+    "goals": {
+        "primary": [
+            "Showcase watches professionally",
+            "Increase customer inquiries",
+            "Strengthen brand credibility",
+            "Provide detailed product information"
+        ],
+        "success_metrics": [
+            "Inquiry submissions",
+            "Pre-order requests",
+            "Average session duration",
+            "Pre-order button click rate"
+        ]
+    },
+    "target_users": {
+        "primary_audience": [
+            "Watch collectors",
+            "Luxury buyers",
+            "Social media visitors",
+            "First-time premium watch customers"
+        ],
+        "characteristics": [
+            "Mobile-first browsing",
+            "Visual decision-makers",
+            "Value authenticity",
+            "Expect premium presentation"
+        ]
+    },
+    "scope": {
+        "included": [
+            "Watch showcase",
+            "Dynamic product pages",
+            "CMS-managed inventory",
+            "Inquiry and pre-order system",
+            "Mobile responsive design"
+        ],
+        "excluded": [
+            "User accounts",
+            "Online payments",
+            "Shopping cart",
+            "Inventory automation"
+        ]
+    },
+    "ux_principles": [
+        "Luxury minimalism",
+        "Product-first design",
+        "Slow and premium motion",
+        "Trust-oriented layout"
+    ],
+    "site_architecture": {
+        "pages": [
+            "Home",
+            "Collection",
+            "Watch Detail",
+            "About",
+            "Contact",
+            "Pre-Order / Inquiry"
+        ]
+    },
+    "features": {
+        "home_page": [
+            "Hero showcase",
+            "Featured watch",
+            "Brand statement",
+            "Bento-grid gallery",
+            "Trust section",
+            "Footer with contacts"
+        ],
+        "collection_page": [
+            "Watch grid layout",
+            "Hover animations",
+            "Status display"
+        ],
+        "watch_detail_page": [
+            "Image gallery",
+            "Specifications section",
+            "Description",
+            "Pre-order CTA"
+        ],
+        "inquiry_form": [
+            "Name",
+            "Email",
+            "Phone optional",
+            "Watch auto-fill",
+            "Message",
+            "Email notification"
+        ],
+        "about_page": [
+            "Brand story",
+            "Mission",
+            "Authenticity statement"
+        ]
+    },
+    "design": {
+        "visual_style": "Dark luxury aesthetic with leather texture and low-light showroom atmosphere",
+        "color_palette": {
+            "background": "#0B0B0B",
+            "accent_gold": "#D4AF37",
+            "primary_text": "#EAEAEA",
+            "secondary_text": "#9A9A9A"
+        },
+        "typography": {
+            "headings": "Elegant serif (Cinzel or Playfair Display)",
+            "body": "Modern sans-serif (Inter or Poppins)"
+        },
+        "animation_style": [
+            "Subtle fade-in",
+            "Soft hover glow",
+            "Minimal motion"
+        ]
+    },
+    "cms": {
+        "type": "Headless CMS",
+        "provider": "Sanity",
+        "purpose": [
+            "Add new watches",
+            "Update stock status",
+            "Upload images",
+            "Manage featured products"
+        ],
+        "watch_schema": {
+            "name": "string",
+            "brand": "string",
+            "slug": "string",
+            "price": "number",
+            "status": [
+                "Available",
+                "Sold",
+                "Pre-Order",
+                "Coming Soon"
+            ],
+            "featured": "boolean",
+            "description": "rich_text",
+            "images": "array",
+            "caseSize": "string",
+            "movement": "string",
+            "material": "string",
+            "dial": "string",
+            "condition": "string"
+        }
+    },
+    "tech_stack": {
+        "frontend": {
+            "framework": "Next.js (App Router)",
+            "language": "TypeScript",
+            "styling": "Tailwind CSS",
+            "components": "shadcn/ui",
+            "animation": "Framer Motion"
+        },
+        "cms": {
+            "provider": "Sanity CMS",
+            "database": "Sanity Content Lake",
+            "image_cdn": "Sanity Image CDN"
+        },
+        "backend_services": {
+            "email_service": [
+                "Resend",
+                "EmailJS"
+            ],
+            "api_routes": "Next.js Server Actions / API Routes"
+        },
+        "hosting": {
+            "platform": "Vercel",
+            "deployment": "GitHub auto-deploy",
+            "ssl": "Automatic HTTPS"
+        },
+        "seo": {
+            "features": [
+                "Server-side rendering",
+                "Dynamic metadata",
+                "SEO-friendly URLs",
+                "Optimized images"
+            ]
+        }
+    },
+    "performance_requirements": {
+        "page_load_target": "Under 3 seconds",
+        "mobile_first": true,
+        "image_optimization": true,
+        "lazy_loading": true
+    },
+    "development_milestones": [
+        {
+            "phase": "Foundation",
+            "tasks": [
+                "Layout",
+                "Navigation",
+                "Theme styling"
+            ]
+        },
+        {
+            "phase": "Product System",
+            "tasks": [
+                "CMS integration",
+                "Collection page",
+                "Dynamic watch pages"
+            ]
+        },
+        {
+            "phase": "Inquiry System",
+            "tasks": [
+                "Form creation",
+                "Email integration"
+            ]
+        },
+        {
+            "phase": "Polish",
+            "tasks": [
+                "Animations",
+                "SEO",
+                "Performance optimization"
+            ]
+        }
+    ],
+    "future_enhancements": [
+        "Admin dashboard",
+        "Online payments",
+        "Inventory tracking",
+        "Customer testimonials",
+        "Appointment booking"
+    ]
+}
