@@ -7,8 +7,8 @@ export function SmoothScroll({ children }: { children: React.ReactNode }) {
         <ReactLenis
             root
             options={{
-                lerp: 0.05,
-                duration: 1.5,
+                lerp: 0.1,
+                duration: 0.7,
             }}
         >
             {/* @ts-expect-error - Bypass ReactNode version mismatch */}

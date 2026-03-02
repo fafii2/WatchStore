@@ -21,7 +21,7 @@ export function Hero() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-black/60 to-[#050505]/40" />
             </div>
 
-            <div className="container relative z-10 px-6 mx-auto flex flex-col items-center text-center">
+            <div className="container relative z-10 px-6 pt-16 md:pt-32 mx-auto flex flex-col items-center text-center">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
